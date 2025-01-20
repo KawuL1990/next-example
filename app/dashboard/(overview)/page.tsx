@@ -9,8 +9,6 @@ import {
   RevenueChartSkeleton,
 } from "@/app/ui/skeletons";
 
-export const revalidate = 60;
-
 export default async function Page() {
   return (
     <main>
