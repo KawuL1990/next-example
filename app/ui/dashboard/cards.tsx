@@ -14,6 +14,8 @@ const iconMap = {
   invoices: InboxIcon,
 };
 
+export const revalidate = 60;
+
 export default async function CardWrapper() {
   const {
     totalPaidInvoices,
