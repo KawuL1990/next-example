@@ -1,10 +1,6 @@
 import type { NextConfig } from "next";
 /** @type {import('next').NextConfig} */
 
-const nextConfig: NextConfig = {
-  experimental: {
-    ppr: true,
-  },
-};
+const nextConfig: NextConfig = {};
 
 export default nextConfig;
